@@ -1,6 +1,5 @@
 #include "cstack.hpp"
 #include <stack>
-#include <iostream>
 
 using namespace std;
 
@@ -10,5 +9,5 @@ int main(){
     s.pop();
     s.push(1);
     cout <<  "done" << endl;
-    return 0;
+    return 0; 
 }
